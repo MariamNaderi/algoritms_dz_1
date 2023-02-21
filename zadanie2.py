@@ -15,7 +15,7 @@ def make_a_True_text(text):
 
 wikipedia.set_lang("ru")
 
-wiki = wikipedia.page("Рентгеновское излучение")
+wiki = wikipedia.page("Астероид")
 text1 = make_a_True_text(' '.join(wiki.content.strip().split()).strip())
 file = open('Рентгеновское излучение.txt', 'r', encoding='utf-8')
 all_lines = file.readlines()
